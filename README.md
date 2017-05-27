@@ -7,8 +7,18 @@ In every package, with the same name as the index, you will find markdown files 
 ## Index
 
 - [Basics](src/main/kotlin/com/mobilejazz/kotlin/basics/basics.md)
-- Classes and objects
-- etc...
+- [Classes and objects](src/main/kotlin/com/mobilejazz/kotlin/classes_objects/classes_objects.md)
+- [Functions and Lambdas](src/main/kotlin/com/mobilejazz/kotlin/functions_lambdas/functions_lambdas.md)
+- [Generics](src/main/kotlin/com/mobilejazz/kotlin/generics/generics.md)
+- [Coroutines](src/main/kotlin/com/mobilejazz/kotlin/coroutines/coroutines.md)
+- [Standard library](src/main/kotlin/com/mobilejazz/kotlin/standard_library/standard_library.md)
+- [Functional Programming](src/main/kotlin/com/mobilejazz/kotlin/functional_programming/functional_programming.md)
+- [Design patterns](src/main/kotlin/com/mobilejazz/kotlin/design_pattern/design_pattern.md)
+
+## Contributing
+
+- If you spot an error / typo / dead link / something missing, please [create an issue](https://github.com/mobilejazz/Kotlin-Journey/issues).
+- Pull requests are welcome ;-)
 
 ## License
 
