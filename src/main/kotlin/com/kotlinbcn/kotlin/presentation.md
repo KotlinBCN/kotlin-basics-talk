@@ -14,5 +14,8 @@ Working at [Mobile Jazz](https://mobilejazz.com/)
   - [Types](basics/types/types.md)
   - [Variables](basics/variables/variables.md)
   - [Null Safety](basics/null_safety/null_safety.md)
-  - []
+- **Classes**
+  - [Classes](classes/classes/classes.md)
+  - [Extensions](classes/extensions/extensions.md)
+  - [Interfaces](classes/interfaces/interfaces.md)
 
