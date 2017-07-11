@@ -1,6 +1,6 @@
 # Kotlin journey
 
-Learning a new language is always a journey. This is our experience at **Mobile Jazz** as we explore this promising language.
+Learning a new language is always a journey.
 
 In every package, with the same name as the index, you will find markdown files with notes and code sample about it. 
 
@@ -22,7 +22,7 @@ In every package, with the same name as the index, you will find markdown files 
 
 ## License
 
-    Copyright 2017 Mobile Jazz
+    Copyright 2017 KotlinBCN
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

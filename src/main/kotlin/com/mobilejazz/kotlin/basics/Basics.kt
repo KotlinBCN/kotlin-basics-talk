@@ -9,6 +9,10 @@ fun variables() {
 
     val immutableList = listOf(1, 2, 3) // Immutable by reference and value
     val mutableList = mutableListOf(1, 2, 3) // Immutable by reference and not value
+
+    var bar: String? = "Bar"
+
+    val foo: String = bar ?: "Foo"
 }
 
 
