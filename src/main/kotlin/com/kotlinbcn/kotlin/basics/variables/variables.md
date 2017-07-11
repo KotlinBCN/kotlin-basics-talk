@@ -1,5 +1,3 @@
-# Basics
-
 ### Variables
 
 The variables can be:
@@ -38,7 +36,3 @@ fun bar() {
     val mutableList = mutableListOf(1, 2, 3) // Immutable by reference and not value
 }
 ```
-
-
-
-

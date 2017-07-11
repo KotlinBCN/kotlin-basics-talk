@@ -1,4 +1,4 @@
-package com.mobilejazz.kotlin.basics
+package com.kotlinbcn.kotlin.basics.variables
 
 fun variables() {
     var mutable: Int = 1 // Mutable variable
@@ -15,4 +15,6 @@ fun variables() {
     val foo: String = bar ?: "Foo"
 }
 
-
+fun main(args: Array<String>) {
+    variables()
+}
