@@ -1,4 +1,4 @@
-### Null Safety
+## Null Safety
 
 * All the types are non-nullable by defaults.
 * To define a nullable variable we need to use the keyword **?**
