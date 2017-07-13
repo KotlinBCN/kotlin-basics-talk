@@ -222,7 +222,7 @@ class HPPrinter(val x: Int) : Printer {
   }
 }
 
-class DelegatePrinter(printer: Printer) : Printer by printer
+class DelegatePrinter(printerKotlin: Printer) : Printer by printerKotlin
 
 fun main(args: Array<String>) {
   val hpPrinter = HPPrinter(10)
