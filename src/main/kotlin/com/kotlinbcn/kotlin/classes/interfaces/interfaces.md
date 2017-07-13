@@ -56,3 +56,22 @@ class RealClock : Clock {
 }
 
 ```
+
+And... we can implement default behaviour!!!!
+
+```kotlin
+interface Clock {
+  val time: Int get() = 24
+
+  fun tick() {
+    println("Tick")
+  }
+}
+
+class RealClock : Clock {
+  override fun tick() {
+
+  }
+}
+
+```
