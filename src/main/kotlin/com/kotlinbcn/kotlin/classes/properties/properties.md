@@ -24,7 +24,6 @@ Properties can be delegated also to be backed by another class or entity, this i
 doesn't have to be defined initially.
 
 ```kotlin
-
 class Delegate {
     operator fun getValue(thisRef: Any?, property: KProperty<*>): String {
         return "$thisRef, thank you for delegating '${property.name}' to me!"
@@ -45,4 +44,32 @@ For delegates to work you have to declare two methos which are getValue and setV
 Useful delegates to know:
 
   * Lazy - Not initialized until first access
-  * Map - Fields backed by a Map object
+ 
+```kotlin
+  
+val lazyValue: String by lazy {
+    println("computed!")
+    "Hello"
+}  
+```
+
+Subsequent calls to lazyValue will return "Hello directly", by defaul that lambda is just executed only one for calculating initially the value.
+
+
+And:
+
+   * Map - Fields backed by a Map object
+   
+```kotlin
+   
+class User(val map: Map<String, Any?>) {
+    val name: String by map
+    val age: Int     by map
+}
+
+val user = User(mapOf(
+    "name" to "John Doe",
+    "age"  to 25
+))
+
+```
