@@ -25,6 +25,7 @@ class Foo {
 
 // Default parameters
 fun sum(a: Int = 1, b: Int = 1) = a + b
+
 fun multiply(a: Int = 1, b: Int) = a + b
 
 fun main(args: Array<String>) {
@@ -36,7 +37,7 @@ fun main(args: Array<String>) {
 // Infix notations
 
 class Counter {
-    infix fun count (value: Array<Int>): Int = value.size
+    infix fun count(value: Array<Int>): Int = value.size
 }
 
 val counter = Counter()

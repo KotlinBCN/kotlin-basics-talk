@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 
 > Did you think that you will end up with **if else** expressions everywhere?
 
-Kotlin includes an **Evil Operator**  through which we can express the typical if else null check with this simple operator “?:”.
+Kotlin includes an **Elvis Operator**  through which we can express the typical if else null check with this simple operator “?:”.
 
 ```kotlin
 fun main(args: Array<String>) {    
@@ -25,6 +25,9 @@ fun main(args: Array<String>) {
     
     /** using evil operator */
     val foo: String = bar ?: "Foo"
+    val foo: String?
+    
+    foo!!.length // no compile 
     
     /** traditional if else */
     if (foo == null) {

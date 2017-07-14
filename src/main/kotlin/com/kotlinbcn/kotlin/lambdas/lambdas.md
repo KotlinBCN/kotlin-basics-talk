@@ -61,7 +61,9 @@ val sum: (Int, Int) -> Int = { x, y -> x + y } // Explicit return type
 
 // Or
 
-val sum = fun(x: Int, y: Int): Int = x + y 
+val sum = fun(x: Int, y: Int) { 
+    x + y 
+} 
 
 ```
 

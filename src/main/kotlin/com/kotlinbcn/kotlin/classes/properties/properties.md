@@ -4,7 +4,7 @@ Properties are variables that hold values (var or val):
 
 ```kotlin
 class Address {
-  val name: String = "Test"
+  val name = "Test"
   var street: String = "Piruleta"
   var city: String  = "Barcelona"
   var zip: Int = 1234
@@ -53,7 +53,7 @@ val lazyValue: String by lazy {
 }  
 ```
 
-Subsequent calls to lazyValue will return "Hello directly", by defaul that lambda is just executed only one for calculating initially the value.
+Subsequent calls to lazyValue will return "Hello directly", by default that lambda is just executed only one for calculating initially the value.
 
 
 And:

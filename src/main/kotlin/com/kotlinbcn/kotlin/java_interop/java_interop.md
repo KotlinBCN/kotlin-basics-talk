@@ -55,7 +55,7 @@ fun main(args: Array<String>) {
 ```
 
 * We can use some kotlin `annotations` to improve the readability of use Kotlin code in Java. 
-    * `@file:JvmName("NewName")` --> Change the name of the generated java class to the new one. 
+    * `@file:JvmName("NewName")` --> Change the name of the generated java class to the new one.
     * `@file:JvmMultifileClass` --> Merge multiples kotlin files into a single one.
     * `@JvmField` --> expose a kotlin property into a field in java. 
         * Kotlin properties in a `object` or `companion object` are private. We must use `@JvmField` to expose it.

@@ -1,6 +1,6 @@
 ## Types
 
-* All the types are Object. We can call member functions. 
+* All the types are Object. 
 * Optimized some of the primitive types.
 * Types:
     - Numbers
@@ -29,8 +29,8 @@ val byte: Byte = 0 // 8
 
 **Kotlin**
 ```kotlin
-val double: Double = 0.0 // 64 bit
-val doubleNullable: Double? = 0.0
+val double: Double = 0.0 // 64 bit // double
+val doubleNullable: Double? = 0.0 // java.lang.Double
 ```
 
 **Bytecode**
@@ -80,8 +80,8 @@ val bytes = 0b11010010_01101001_10010100_10010010
 
 ```kotlin
 fun arrays() {
-    val arrayOf: Array<Int> = arrayOf(1, 2, 3)
-    val arrayOfNulls = arrayOfNulls<Int>(3)
+    val arrayOf: Array<Int> = arrayOf(1, 2, 3) 
+    val arrayOfNulls = arrayOfNulls<Int>(3) 
 
     val i = arrayOf[1] // result = 1
     val iNull = arrayOfNulls[1] // result = null

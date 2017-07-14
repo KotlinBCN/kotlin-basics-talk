@@ -11,7 +11,6 @@ We don't need to use ternaries anymore because the `if` expression returns a val
 ```kotlin
 
     val value = if (high > 0) high else low
-
 ```
 
 * **When expression**
@@ -21,7 +20,7 @@ Here what it's really new, Kotlin has replaced the operator `switch` with a new 
 `when` matches its argument against all the branches provided until some of conditions is satisfied sequentially, if not 
 you must specify a `else` condition.
  
- > If the compiler detect that the expression could be not satisfied, it won't compile until you specify a `else` condition. 
+ > If the compiler detect that the expression could be not satisfied, it won't compile until you specify a `else` condition.
 
 Also it has two operators to specify deeper what are the conditions:
 * `is` / `!is` check if the value is or not from a particular type. 

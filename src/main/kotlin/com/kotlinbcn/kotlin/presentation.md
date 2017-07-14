@@ -20,6 +20,7 @@ Working at [Mobile Jazz](https://mobilejazz.com/) & [Bugfender](https://bugfende
   - [Functions](basics/functions/functions.md)
 - **Classes**
   - [Classes](classes/classes/classes.md)
+  - [Properties](classes/properties/properties.md)
   - [Objects](classes/objects/objects.md)
   - [Extensions](classes/extensions/extensions.md)
   - [Interfaces](classes/interfaces/interfaces.md)
@@ -28,3 +29,8 @@ Working at [Mobile Jazz](https://mobilejazz.com/) & [Bugfender](https://bugfende
 - [**Coroutines**](coroutines/coroutines.md)
 - [**Functional Programming**](functional_programming/functional_programming.md)
 
+### End
+
+Questions = ???
+
+**Thanks for comming!**
